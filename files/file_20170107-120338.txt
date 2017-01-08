@@ -1,0 +1,9 @@
+=== ANFANG TEXT ===
+test
+=== ENDE TEXT ===
+Deine Note: 10
+Benutzte Methode: Erste
+Benutztes Profil: Third
+Evidence: 30%
+Richtigkeit des Profils: 60%
+Datum der Korrektur: Sat Jan  7 12:03:44 2017

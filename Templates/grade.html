@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='1483641119_folder.ico') }}">
+<style>
+p.ex1 {
+    font: 15px arial, sans-serif;
+}
+p.ex2 {
+    font: 32px arial, sans-serif;
+}
+</style>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>maTex</title>
+	
+</head>
+<body>
+<table width="100%" border="0">
+  <tr>
+    <td colspan="2" bgcolor="#b5dcb3" style="border-top-right-radius: 0.5em; border-top-left-radius: 0.5em">
+		<center>
+			<h1><p class="ex2">maTex</p></h1>
+		</center>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td colspan="2" bgcolor="#eeeeee" width="100%" height="100%">
+		<center>
+			<p class="ex1">Ihre Note: {{ text_grade }}</p>
+			<p class="ex1">Benutzte Methode: {{ method }}</p>
+			<p class="ex1">Benutztes Profil: {{ profile }}</p>
+			<p class="ex1">Evidence: {{ evidence }}</p>
+			<p class="ex1">Richtigkeit des Profils: {{ validity }}</p>
+		</center>
+    </td>
+	</tr>
+	<tr>
+		<td colspan="2" bgcolor="#eeeeee" width="50%" height="100%">
+		<center>
+			<input type="button" value="Neuen Text Korrigieren" onclick="window.location.href='../'" style="height:50px; width:170px"><br>
+			<input type="button" value="Ergebnisse Herunterladen" onclick="window.location.href='../download'" style="height:25px; width:170px">
+		</center>
+		</td>
+	</tr>
+  <tr>
+	<td colspan="2" bgcolor="#eeeeee" width="100%" height="100%" border="0">
+		<center>
+			<p class="ex1"><b>Cooler Text über das Programm</b></p>
+		</center>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" bgcolor="#b5dcb3" width="100%" height="100%" style="border-bottom-right-radius: 0.5em; border-bottom-left-radius: 0.5em" border="0">
+      <center>
+      <p class="ex1">Copyright © 2017 maTex - <a href="http://www.phaenovum.eu/de/" style="text-decoration:none;" target="_blank"><font color="#000000">ph</font><font color="#ff9300">ae</font><font color="#000000">novum</font></a></p>
+      </center>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

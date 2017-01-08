@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='1483641119_folder.ico') }}">
+<style>
+p.ex2 {
+    font: 32px arial, sans-serif;
+}
+p.ex1 {
+    font: 15px arial, sans-serif;
+}
+p.ex3 {
+    font: 11px arial, sans-serif;
+}
+
+</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>maTex</title>
+		
+</head>
+<body>
+<table width="100%" border="0">
+  <tr>
+    <td colspan="2" bgcolor="#b5dcb3" style="border-top-right-radius: 0.5em; border-top-left-radius: 0.5em">  <!-- Alte Farbe: #b5dcb3 ae: #ff9300 -->
+		<center>
+			<h1><p class="ex2">maTex</p></h1>
+		</center>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td rowspan="3" bgcolor="#eeeeee" width="70%" height="100%">
+		<center>
+        <form action="/grade" method="POST">
+			<textarea name="data" style="width: 50em; height: 40em; text-align:centre; resize:none" placeholder="Fügen Sie Ihren Text hier ein." required></textarea>
+		</center>
+    </td>
+	<td valign="middle" bgcolor="#eeeeee" width="30%" height="33%"> 
+			<fieldset style="font: 15px arial, sans-serif;">
+				<legend>Wählen Sie eine Methode</legend>
+				<input type="radio" id="erste" name="Methode" value="Erste" checked>
+				<label for="erste"> Erste</label>
+				<br>
+				<input type="radio" id="zweite" name="Methode" value="Zweite">
+				<label for="zweite"> Zweite</label>
+				<br>
+				<input type="radio" id="dritte" name="Methode" value="Dritte">
+				<label for="dritte"> Dritte</label>
+			</fieldset>
+	</td>
+  </tr>
+	<tr>
+		<td valign="middle" bgcolor="#eeeeee" width="30%" height="33%">
+			<fieldset style="font: 15px arial, sans-serif;">
+				<legend>Wählen Sie ein Profil</legend>
+				<input type="radio" id="first" name="Profil" value="First" style="resize:none" checked>
+				<label for="first"> First</label>
+				<br>
+				<input type="radio" id="second" name="Profil" value="Second" style="resize:none">
+				<label for="second"> Second</label>
+				<br>
+				<input type="radio" id="third" name="Profil" value="Third" style="resize:none">
+				<label for="third"> Third</label>
+			</fieldset>
+		</td>
+	</tr>
+	<tr>
+		<td valign="middle" bgcolor="#eeeeee" width="30%" height="33%">
+		<center>
+		
+			<input type="submit" value="Submit" style="height:50px; width:150px">
+		</center>
+		</td>
+		</form>
+	</tr>
+  <tr>
+	<td colspan="2" bgcolor="#eeeeee" width="100%" height="100%" border="0">
+		<center>
+			<p class="ex1"><b>Cooler Text über das Programm</b></p>
+		</center>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" bgcolor="#b5dcb3" width="100%" height="100%" style="border-bottom-right-radius: 0.5em; border-bottom-left-radius: 0.5em" border="0">
+      <center>
+      <p class="ex1">Copyright © 2017 maTex - <a href="http://www.phaenovum.eu/de/" style="text-decoration:none;" target="_blank"><font color="#000000">ph</font><font color="#ff9300">ae</font><font color="#000000">novum</font></a></p>
+      </center>
+    </td>
+  </tr>
+ </table>
+</body>
+</html>
